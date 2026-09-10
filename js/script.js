@@ -272,9 +272,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const linksContainer = document.getElementById('links-container');
 
     let links = JSON.parse(localStorage.getItem('links')) || [
-        { name: 'Google', url: 'https://www.google.com' },
-        { name: 'Gmail', url: 'https://mail.google.com' },
-        { name: 'Calendar', url: 'https://calendar.google.com' }
+        { name: 'Github', url: 'https://github.com/echoTech187' },
+        { name: 'Linked', url: 'https://www.linkedin.com/in/ekosuesanto' }
     ];
 
     function saveLinks() {
