@@ -67,12 +67,14 @@ body {
 }
 
 #clock {
+    display: block;
     font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
 #date {
+    display: block;
     font-size: 1.1rem;
     color: var(--text-color);
     opacity: 0.8;
@@ -85,6 +87,7 @@ body {
     justify-content: center;
 }
 
+.greeting-container h1,
 .greeting-container h2 {
     font-size: 1.8rem;
     display: inline-block;
@@ -137,6 +140,8 @@ body {
     }
 }
 
+.card h2,
+.card h3,
 h3 {
     margin-bottom: 15px;
     font-size: 1.25rem;
@@ -324,4 +329,12 @@ h3 {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(156, 163, 175, 0.8);
+}
+
+.dashboard-footer {
+    text-align: center;
+    padding: 25px 0 10px;
+    font-size: 0.85rem;
+    color: var(--text-color);
+    opacity: 0.8;
 }
